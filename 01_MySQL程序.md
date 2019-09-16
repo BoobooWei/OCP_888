@@ -42,3 +42,17 @@
 | 图形化工具                                | `MySQL Workbench`           |      | 用于管理MySQL服务器和数据库，创建，执行和评估查询，以及从其他关系数据库管理系统迁移模式和数据以供MySQL使用。 |
 |                                           | `MySQL for Excel`           |      | MySQL for Excel是一个加载项，使您可以从Microsoft Excel中浏览MySQL模式，表，视图和过程。使用MySQL for Excel，您可以执行以下操作：1. 将MySQL数据导入Excel。 2. 将Excel数据作为新表导出到MySQL或将数据附加到现有表。 3. 直接从Excel中修改MySQL数据。 |
 |                                           | `MySQL Notifier`            |      | MySQL Notifier是一个工具，使您可以通过驻留在Microsoft Windows任务栏中的指示器来监视和调整本地和远程MySQL服务器实例的状态。MySQL Notifier还通过其上下文菜单快速访问MySQL Workbench。 |
+
+
+
+## mysqlbackup
+
+企业版才有的工具，考试必考
+
+[backup-commands-backup](https://dev.mysql.com/doc/mysql-enterprise-backup/8.0/en/backup-commands-backup.html)
+
+考点：backup的三种方式
+
+* backup-to-image 备份数据的单文件备份
+* backup 备份目录
+* backup-and-apply-log = backup + apply-log 备份数据的单文件备份+应用redolog
