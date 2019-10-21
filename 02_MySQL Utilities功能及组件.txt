@@ -1,0 +1,39 @@
+MySQL Utilities功能及组件
+Binary Log Operations(二进制日志操作) 
+        mysqlbinlogmove   二进制日志移动
+        mysqlbinlogpurge  二进制日志清理
+        mysqlbinlogrotate 二进制日志老化工具    
+
+Database Operations(数据库操作)
+        mysqldbexport     数据导出
+        mysqldbimport     数据导入
+        mysqldbcopy       库级别数据库复制
+        mysqldiff         数据库对象级别比较工具
+        mysqldbcompare    数据库库级别比较工具
+
+General Operations(通用用的操作)     
+        mysqldiskusage    磁盘空间查看
+        mysqlfrm          恢复故障表.frm文件
+        mysqluserclone    用户克隆工具
+        mysqluc           Utilities帮助工具 
+        mysqlindexcheck   索引检测工具
+        mysqlmetagrep     元数据过滤器
+        mysqlprocgrep     进程搜索及清理工具
+
+High Availability Operations(高可用)
+    mysqlreplicate   主从复制工具
+    mysqlrpladmin    主从复制管理工具
+    mysqlrplcheck    主从复制检测工具
+    mysqlrplms       主从多元复制工具
+    mysqlrplshow     主从复制拓扑图工具
+    mysqlrplsync     主从复制同步工具
+    mysqlfailover    主从failover工具
+    mysqlslavetrx    从库事务跳过工具 
+
+Server Operations(服务器操作)
+        mysqlserverinfo    服务器信息查看工具
+        mysqlserverclone   服务器克隆工具    
+
+Specialized Operations(特殊操作)
+        mysqlauditadmin    审计管理工具 
+        mysqlauditgrep     审计日志过滤工具
